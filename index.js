@@ -1,11 +1,13 @@
-let firstName = document.getElementById("firstName");
-let lastName = document.getElementById("lastName");
-let address = document.getElementById("myAddress");
-const submit = document.getElementById("mySubmit");
-const output = document.getElementById("myP");
-
-mySubmit.onclick = function () {
-  output.innerHTML = `My name is ${firstName.value} ${lastName.value} and this is my address ${address.value}`;
-  s;
-};
-const key = "bread";
+function writeCards(names, event) {
+  let messages = [];
+  for (let i = 0; i < names.length; i++) {
+    messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+  }
+  return messages;
+}
+function countDown(number) {
+  while (number >= 0) {
+    console.log(number);
+    number--;
+  }
+}
