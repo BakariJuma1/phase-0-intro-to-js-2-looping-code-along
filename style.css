@@ -1,0 +1,18 @@
+#myContainer {
+  border-style: solid;
+  border-color: aqua;
+  background-color: blue;
+  border-radius: 20px;
+  color: black;
+}
+#myAddress {
+  margin-left: 100px;
+}
+#mySubmit {
+  margin-left: 200px;
+  background-color: green;
+  border-radius: 20px;
+}
+#mySubmit:hover {
+  background-color: grey;
+}
